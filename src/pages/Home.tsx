@@ -4,7 +4,7 @@ import '../components.css';
 
 const Home: React.FC = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
-  
+
   const testimonials = [
     {
       quote: "ListMap transformed how I travel! I've discovered amazing local spots I never would have found otherwise.",
@@ -211,16 +211,16 @@ const Home: React.FC = () => {
             <h2 className="section-title">💙 What Travelers Say</h2>
             <p className="section-subtitle">Join thousands of happy travelers sharing their experiences</p>
           </div>
-          
+
           <div className="testimonial-carousel">
-            <button 
-              className="carousel-nav carousel-prev" 
+            <button
+              className="carousel-nav carousel-prev"
               onClick={prevTestimonial}
               aria-label="Previous testimonial"
             >
               ←
             </button>
-            
+
             <div className="testimonial-content">
               <blockquote className="testimonial-quote">
                 "{testimonials[currentTestimonial].quote}"
@@ -238,16 +238,16 @@ const Home: React.FC = () => {
                 </div>
               </div>
             </div>
-            
-            <button 
-              className="carousel-nav carousel-next" 
+
+            <button
+              className="carousel-nav carousel-next"
               onClick={nextTestimonial}
               aria-label="Next testimonial"
             >
               →
             </button>
           </div>
-          
+
           <div className="testimonial-dots">
             {testimonials.map((_, index) => (
               <button
@@ -268,7 +268,7 @@ const Home: React.FC = () => {
             <h2 className="section-title">💎 Simple, Transparent Pricing</h2>
             <p className="section-subtitle">Choose the perfect plan for your travel adventures</p>
           </div>
-          
+
           <div className="pricing-grid">
             <div className="pricing-card">
               <div className="pricing-header">
@@ -286,9 +286,9 @@ const Home: React.FC = () => {
                 <li>✓ Basic map features</li>
                 <li>✓ Mobile app access</li>
               </ul>
-              <a href="#" className="btn btn-secondary btn-lg">Get Started Free</a>
+              <a href="#" className="btn btn-secondary btn-md">Get Started Free</a>
             </div>
-            
+
             <div className="pricing-card pricing-featured">
               <div className="pricing-badge">Most Popular</div>
               <div className="pricing-header">
@@ -308,9 +308,9 @@ const Home: React.FC = () => {
                 <li>✓ Social sharing</li>
                 <li>✓ Priority support</li>
               </ul>
-              <a href="#" className="btn btn-primary btn-lg">Start Free Trial</a>
+              <a href="#" className="btn btn-primary btn-md">Start Free Trial</a>
             </div>
-            
+
             <div className="pricing-card">
               <div className="pricing-header">
                 <h3 className="pricing-title">Guide</h3>
@@ -328,7 +328,7 @@ const Home: React.FC = () => {
                 <li>✓ Analytics dashboard</li>
                 <li>✓ API access</li>
               </ul>
-              <a href="#" className="btn btn-secondary btn-lg">Contact Sales</a>
+              <a href="#" className="btn btn-secondary btn-md">Contact Sales</a>
             </div>
           </div>
         </div>
@@ -341,7 +341,7 @@ const Home: React.FC = () => {
             <div className="contact-info">
               <h2 className="section-title">✉️ Get in Touch</h2>
               <p className="section-subtitle">Have questions? We'd love to hear from you!</p>
-              
+
               <div className="contact-methods">
                 <div className="contact-method">
                   <div className="contact-icon">📧</div>
@@ -350,7 +350,7 @@ const Home: React.FC = () => {
                     <p>hello@listmap.com</p>
                   </div>
                 </div>
-                
+
                 <div className="contact-method">
                   <div className="contact-icon">💬</div>
                   <div className="contact-details">
@@ -358,7 +358,7 @@ const Home: React.FC = () => {
                     <p>Available 9am-6pm EST</p>
                   </div>
                 </div>
-                
+
                 <div className="contact-method">
                   <div className="contact-icon">📱</div>
                   <div className="contact-details">
@@ -368,30 +368,30 @@ const Home: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="contact-form">
               <form className="contact-form-inner">
                 <div className="form-group">
                   <label htmlFor="name">Name</label>
                   <input type="text" id="name" name="name" required />
                 </div>
-                
+
                 <div className="form-group">
                   <label htmlFor="email">Email</label>
                   <input type="email" id="email" name="email" required />
                 </div>
-                
+
                 <div className="form-group">
                   <label htmlFor="subject">Subject</label>
                   <input type="text" id="subject" name="subject" required />
                 </div>
-                
+
                 <div className="form-group">
                   <label htmlFor="message">Message</label>
                   <textarea id="message" name="message" rows={5} required></textarea>
                 </div>
-                
-                <button type="submit" className="btn btn-primary btn-lg">
+
+                <button type="submit" className="btn btn-primary btn-md">
                   <span className="btn-icon">🚀</span>
                   Send Message
                 </button>
