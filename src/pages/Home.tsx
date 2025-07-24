@@ -21,7 +21,7 @@ const Home: React.FC = () => {
               <a href="#signup" className="btn btn-primary">Sign Up</a>
             </div> */}
 
-            <button className="navbar-mobile-toggle">☰</button>
+            {/* <button className="navbar-mobile-toggle">☰</button> */}
           </div>
         </div>
       </nav>
