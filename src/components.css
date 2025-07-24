@@ -180,7 +180,7 @@
   .navbar-nav {
     display: none;
   }
-  
+
   .navbar-mobile-toggle {
     display: block;
   }
@@ -240,9 +240,12 @@
 }
 
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     transform: translateY(-20px) rotate(180deg);
   }
@@ -269,9 +272,12 @@
 }
 
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.05);
   }
@@ -290,9 +296,11 @@
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -365,9 +373,12 @@
 }
 
 @keyframes phoneFloat {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-10px);
   }
@@ -449,9 +460,12 @@
 }
 
 @keyframes bounce {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-5px);
   }
@@ -486,6 +500,7 @@
     transform: translateX(-20px);
     opacity: 0;
   }
+
   to {
     transform: translateX(0);
     opacity: 1;
@@ -516,7 +531,7 @@
   .hero-title {
     font-size: 4rem;
   }
-  
+
   .hero-subtitle {
     font-size: var(--text-2xl);
   }
@@ -974,7 +989,7 @@
     flex-direction: column;
     text-align: center;
   }
-  
+
   .footer-links {
     flex-wrap: wrap;
     justify-content: center;
@@ -987,6 +1002,7 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1001,13 +1017,14 @@
   0% {
     background-position: -200px 0;
   }
+
   100% {
     background-position: 200px 0;
   }
 }
 
 .shimmer {
-  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.4) 50%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.4) 50%, transparent 100%);
   background-size: 200px 100%;
   animation: shimmer 2s infinite;
 }
@@ -1079,10 +1096,13 @@
 }
 
 @keyframes iconPulse {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
   }
+
   50% {
     transform: scale(1.1);
     box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
@@ -1173,18 +1193,18 @@
   .hero-stats {
     gap: var(--space-lg);
   }
-  
+
   .phone-mockup {
     width: 240px;
     height: 480px;
   }
-  
+
   .cta-features {
     gap: var(--space-md);
     flex-direction: column;
     align-items: center;
   }
-  
+
   .stat-item {
     min-width: 80px;
   }
@@ -1273,12 +1293,14 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--space-xl);
   margin-top: var(--space-3xl);
+  display: flex;
+  flex-direction: column;
 }
 
 .pricing-card {
   background: var(--white);
   border-radius: var(--radius-xl);
-  padding: var(--space-2xl);
+  padding: var(--space-xl);
   box-shadow: var(--shadow-md);
   transition: all var(--transition-slow);
   position: relative;
@@ -1546,25 +1568,25 @@
     flex-direction: column;
     gap: var(--space-lg);
   }
-  
+
   .carousel-nav {
     display: none;
   }
-  
+
   .pricing-grid {
     grid-template-columns: 1fr;
     gap: var(--space-lg);
   }
-  
+
   .pricing-featured {
     transform: none;
   }
-  
+
   .features-grid {
     grid-template-columns: 1fr;
     gap: var(--space-lg);
   }
-  
+
   .contact-content {
     grid-template-columns: 1fr;
     gap: var(--space-2xl);
