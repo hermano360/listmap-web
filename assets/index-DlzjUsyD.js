@@ -187,4 +187,4 @@ Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;"><strong><bdt clas
       }
     </style>
       </div>
-      `}}),N.jsxs("footer",{style:{gap:"10px",display:"flex",justifyContent:"center"},children:[N.jsx(Oe,{to:"/",children:"Home"}),N.jsx(Oe,{to:"/privacy",children:"Privacy Policy"})]})]});function fm(){return N.jsx(Py,{children:N.jsxs(Oy,{children:[N.jsx(Fs,{path:"/",element:N.jsx(rm,{})}),N.jsx(Fs,{path:"/privacy",element:N.jsx(um,{})}),N.jsx(Fs,{path:"/terms",element:N.jsx(dm,{})})]})})}Lb.createRoot(document.getElementById("root")).render(N.jsx(k.StrictMode,{children:N.jsx(fm,{})}));
+      `}}),N.jsxs("footer",{style:{gap:"10px",display:"flex",justifyContent:"center"},children:[N.jsx(Oe,{to:"/",children:"Home"}),N.jsx(Oe,{to:"/privacy",children:"Privacy Policy"})]})]});function fm(){return N.jsx(Py,{basename:"/listmap-web/",children:N.jsxs(Oy,{children:[N.jsx(Fs,{path:"/",element:N.jsx(rm,{})}),N.jsx(Fs,{path:"/privacy",element:N.jsx(um,{})}),N.jsx(Fs,{path:"/terms",element:N.jsx(dm,{})})]})})}Lb.createRoot(document.getElementById("root")).render(N.jsx(k.StrictMode,{children:N.jsx(fm,{})}));
